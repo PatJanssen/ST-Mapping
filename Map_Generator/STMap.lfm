@@ -1,0 +1,26 @@
+object SpatMap: TSpatMap
+  Left = 412
+  Height = 375
+  Top = 240
+  Width = 544
+  HorzScrollBar.Page = 105
+  VertScrollBar.Page = 105
+  AutoScroll = True
+  Caption = 'Diameter Spatial-Temporal Map'
+  ClientHeight = 375
+  ClientWidth = 544
+  Color = clBtnFace
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  FormStyle = fsStayOnTop
+  OnCreate = FormCreate
+  Position = poDefault
+  LCLVersion = '1.2.4.0'
+  object Image1: TImage
+    Left = 0
+    Height = 105
+    Top = 0
+    Width = 105
+  end
+end

@@ -1,0 +1,23 @@
+object GraphThreshDlg: TGraphThreshDlg
+  Left = 1050
+  Top = 40
+  BorderStyle = bsDialog
+  Caption = 'Threshold Graph'
+  ClientHeight = 471
+  ClientWidth = 596
+  Color = clBtnFace
+  ParentFont = True
+  Position = poDesigned
+  OnPaint = FormPaint
+  PixelsPerInch = 96
+  object OKBtn: TButton
+    Left = 263
+    Top = 422
+    Width = 75
+    Height = 25
+    Caption = 'OK'
+    Default = True
+    ModalResult = 1
+    TabOrder = 0
+  end
+end

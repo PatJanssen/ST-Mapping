@@ -1,0 +1,409 @@
+object UserDlg: TUserDlg
+  Left = 416
+  Height = 278
+  Top = 419
+  Width = 701
+  BorderStyle = bsDialog
+  Caption = 'User Input Dialog'
+  ClientHeight = 278
+  ClientWidth = 701
+  Color = clBtnFace
+  ParentFont = True
+  Position = poScreenCenter
+  LCLVersion = '1.6.0.4'
+  object Bevel2: TBevel
+    Left = 176
+    Height = 49
+    Top = 152
+    Width = 193
+    Shape = bsFrame
+  end
+  object Bevel3: TBevel
+    Left = 175
+    Height = 49
+    Top = 35
+    Width = 193
+    Shape = bsFrame
+  end
+  object Bevel4: TBevel
+    Left = 169
+    Height = 193
+    Top = 16
+    Width = 225
+  end
+  object Bevel5: TBevel
+    Left = 400
+    Height = 97
+    Top = 16
+    Width = 121
+  end
+  object Bevel1: TBevel
+    Left = 16
+    Height = 193
+    Top = 16
+    Width = 129
+  end
+  object Label1: TLabel
+    Left = 32
+    Height = 13
+    Top = 40
+    Width = 18
+    Caption = 'Top'
+    ParentColor = False
+  end
+  object Label11: TLabel
+    Left = 24
+    Height = 13
+    Top = 8
+    Width = 75
+    Caption = ' Cropping limits '
+    Color = clBtnFace
+    ParentColor = False
+    Transparent = False
+  end
+  object Label2: TLabel
+    Left = 32
+    Height = 13
+    Top = 80
+    Width = 34
+    Caption = 'Bottom'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 32
+    Height = 13
+    Top = 120
+    Width = 19
+    Caption = 'Left'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 32
+    Height = 13
+    Top = 160
+    Width = 25
+    Caption = 'Right'
+    ParentColor = False
+  end
+  object Label5: TLabel
+    Left = 176
+    Height = 13
+    Top = 8
+    Width = 69
+    Caption = ' Anchor points'
+    Color = clBtnFace
+    ParentColor = False
+    Transparent = False
+  end
+  object Label6: TLabel
+    Left = 191
+    Height = 13
+    Top = 53
+    Width = 35
+    Caption = 'Left  X:'
+    ParentColor = False
+  end
+  object Label7: TLabel
+    Left = 188
+    Height = 13
+    Top = 168
+    Width = 38
+    Caption = 'Right X:'
+    ParentColor = False
+  end
+  object Label8: TLabel
+    Left = 294
+    Height = 13
+    Top = 53
+    Width = 10
+    Caption = 'Y:'
+    ParentColor = False
+  end
+  object Label9: TLabel
+    Left = 291
+    Height = 13
+    Top = 168
+    Width = 10
+    Caption = 'Y:'
+    ParentColor = False
+  end
+  object Label10: TLabel
+    Left = 416
+    Height = 13
+    Top = 40
+    Width = 24
+    Caption = 'Start'
+    ParentColor = False
+  end
+  object Label12: TLabel
+    Left = 416
+    Height = 13
+    Top = 80
+    Width = 18
+    Caption = 'End'
+    ParentColor = False
+  end
+  object Label13: TLabel
+    Left = 408
+    Height = 13
+    Top = 8
+    Width = 67
+    Caption = ' Frame range '
+    Color = clBtnFace
+    ParentColor = False
+    Transparent = False
+  end
+  object Bevel6: TBevel
+    Left = 400
+    Height = 90
+    Top = 119
+    Width = 121
+  end
+  object Label14: TLabel
+    Left = 408
+    Height = 13
+    Top = 114
+    Width = 27
+    Caption = ' Float'
+    Color = clBtnFace
+    ParentColor = False
+    Transparent = False
+  end
+  object Bevel7: TBevel
+    Left = 175
+    Height = 49
+    Top = 91
+    Width = 193
+    Shape = bsFrame
+  end
+  object Label15: TLabel
+    Left = 191
+    Height = 13
+    Top = 109
+    Width = 32
+    Caption = 'Mid  X:'
+    ParentColor = False
+  end
+  object Label16: TLabel
+    Left = 294
+    Height = 13
+    Top = 109
+    Width = 10
+    Caption = 'Y:'
+    ParentColor = False
+  end
+  object Bevel8: TBevel
+    Left = 528
+    Height = 98
+    Top = 16
+    Width = 161
+  end
+  object Label17: TLabel
+    Left = 544
+    Height = 13
+    Top = 40
+    Width = 81
+    Caption = 'No. Radial points'
+    ParentColor = False
+  end
+  object Label19: TLabel
+    Left = 536
+    Height = 13
+    Top = 8
+    Width = 57
+    Caption = '2D Arc ROI '
+    Color = clBtnFace
+    ParentColor = False
+    Transparent = False
+  end
+  object Label18: TLabel
+    Left = 544
+    Height = 13
+    Top = 80
+    Width = 68
+    Caption = 'Radial spacing'
+    ParentColor = False
+  end
+  object OKBtn: TButton
+    Left = 366
+    Height = 25
+    Top = 231
+    Width = 75
+    Caption = 'OK'
+    Default = True
+    ModalResult = 1
+    TabOrder = 0
+  end
+  object CancelBtn: TButton
+    Left = 248
+    Height = 25
+    Top = 231
+    Width = 75
+    Cancel = True
+    Caption = 'Cancel'
+    ModalResult = 2
+    TabOrder = 1
+  end
+  object Edit1: TEdit
+    Left = 78
+    Height = 21
+    Top = 37
+    Width = 50
+    TabOrder = 2
+    Text = 'Edit1'
+  end
+  object Edit2: TEdit
+    Left = 78
+    Height = 21
+    Top = 77
+    Width = 50
+    TabOrder = 3
+    Text = 'Edit2'
+  end
+  object Edit3: TEdit
+    Left = 78
+    Height = 21
+    Top = 117
+    Width = 50
+    TabOrder = 4
+    Text = 'Edit3'
+  end
+  object Edit4: TEdit
+    Left = 78
+    Height = 21
+    Top = 157
+    Width = 50
+    TabOrder = 5
+    Text = 'Edit4'
+  end
+  object Edit5: TEdit
+    Left = 232
+    Height = 21
+    Top = 50
+    Width = 48
+    TabOrder = 6
+    Text = 'Edit5'
+  end
+  object Edit6: TEdit
+    Left = 232
+    Height = 21
+    Top = 165
+    Width = 48
+    TabOrder = 7
+    Text = 'Edit6'
+  end
+  object Edit7: TEdit
+    Left = 310
+    Height = 21
+    Top = 50
+    Width = 42
+    TabOrder = 8
+    Text = 'Edit7'
+  end
+  object Edit8: TEdit
+    Left = 307
+    Height = 21
+    Top = 165
+    Width = 42
+    TabOrder = 9
+    Text = 'Edit8'
+  end
+  object Edit9: TEdit
+    Left = 454
+    Height = 21
+    Top = 37
+    Width = 43
+    TabOrder = 10
+    Text = 'Edit9'
+  end
+  object Edit10: TEdit
+    Left = 454
+    Height = 21
+    Top = 77
+    Width = 43
+    TabOrder = 11
+    Text = 'Edit10'
+  end
+  object RadioButton1: TRadioButton
+    Left = 435
+    Height = 17
+    Top = 135
+    Width = 49
+    Caption = 'Upper'
+    TabOrder = 12
+  end
+  object RadioButton2: TRadioButton
+    Left = 435
+    Height = 17
+    Top = 158
+    Width = 50
+    Caption = 'Middle'
+    TabOrder = 13
+  end
+  object RadioButton3: TRadioButton
+    Left = 435
+    Height = 17
+    Top = 181
+    Width = 49
+    Caption = 'Lower'
+    TabOrder = 14
+  end
+  object Edit11: TEdit
+    Left = 232
+    Height = 21
+    Top = 106
+    Width = 48
+    TabOrder = 15
+    Text = 'Edit11'
+  end
+  object Edit12: TEdit
+    Left = 310
+    Height = 21
+    Top = 106
+    Width = 42
+    TabOrder = 16
+    Text = 'Edit12'
+  end
+  object Edit13: TEdit
+    Left = 630
+    Height = 21
+    Top = 37
+    Width = 43
+    TabOrder = 17
+    Text = 'Edit13'
+  end
+  object Edit14: TEdit
+    Left = 630
+    Height = 21
+    Top = 77
+    Width = 43
+    TabOrder = 18
+    Text = 'Edit14'
+  end
+  object GroupBox1: TGroupBox
+    Left = 528
+    Height = 90
+    Top = 119
+    Width = 161
+    Caption = 'Down sample'
+    ClientHeight = 72
+    ClientWidth = 157
+    TabOrder = 19
+    object Label20: TLabel
+      Left = 16
+      Height = 13
+      Top = 20
+      Width = 82
+      Caption = 'One image every'
+      ParentColor = False
+    end
+    object Edit15: TEdit
+      Left = 104
+      Height = 21
+      Top = 16
+      Width = 43
+      TabOrder = 0
+      Text = 'Edit15'
+    end
+  end
+end

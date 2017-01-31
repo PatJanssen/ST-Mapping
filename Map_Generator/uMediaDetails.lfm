@@ -1,0 +1,27 @@
+object frmMediaDetails: TfrmMediaDetails
+  Left = 269
+  Height = 460
+  Top = 314
+  Width = 290
+  BorderIcons = [biSystemMenu, biHelp]
+  BorderStyle = bsSizeToolWin
+  Caption = 'Media Details'
+  ClientHeight = 460
+  ClientWidth = 290
+  Color = clBtnFace
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  OnClose = FormClose
+  Position = poOwnerFormCenter
+  LCLVersion = '1.3'
+  object Memo: TMemo
+    Left = 0
+    Height = 460
+    Top = 0
+    Width = 290
+    Align = alClient
+    ScrollBars = ssBoth
+    TabOrder = 0
+  end
+end

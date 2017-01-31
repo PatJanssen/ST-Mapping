@@ -1,0 +1,404 @@
+object Form1: TForm1
+  Left = 486
+  Height = 653
+  Top = 206
+  Width = 1030
+  Caption = 'SpatioTemporal Map Generator'
+  ClientHeight = 634
+  ClientWidth = 1030
+  Color = clBtnFace
+  Font.Color = clWindowText
+  Font.Height = -13
+  Font.Name = 'System'
+  Menu = MainMenu1
+  OnCreate = FormCreate
+  OnMouseDown = FormMouseDown
+  LCLVersion = '1.6.0.4'
+  WindowState = wsMaximized
+  object Label1: TLabel
+    Left = 8
+    Height = 16
+    Top = 560
+    Width = 50
+    Caption = 'File No.'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 64
+    Height = 16
+    Top = 560
+    Width = 20
+    Caption = '   0'
+    ParentColor = False
+  end
+  object Label6: TLabel
+    Left = 368
+    Height = 16
+    Top = 592
+    Width = 148
+    Caption = ' .2       x1                  20'
+    ParentColor = False
+  end
+  object BitBtn1: TBitBtn
+    Left = 312
+    Height = 25
+    Top = 560
+    Width = 48
+    Glyph.Data = {
+      76010000424D7601000000000000760000002800000020000000100000000100
+      0400000000000001000000000000000000001000000010000000000000000000
+      80000080000000808000800000008000800080800000C0C0C000808080000000
+      FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00F0FFFFFFFFFF
+      FFFF0FFFFFFFFFFFFFF0F000FFFFFFFFFFFF000FFFFFFFFFFFF0F0000FFFFFFF
+      FFFF0000FFFFFFFFFFF0F000000FFFFFFFFF000000FFFFFFFFF0F0000000FFFF
+      FFFF0000000FFFFFFFF0F00000000FFFFFFF00000000FFFFFFF0F0000000000F
+      FFFF0000000000FFFFF0F00000000000FFFF00000000000FFFF0F00000000000
+      FFFF00000000000FFFF0F0000000000FFFFF0000000000FFFFF0F00000000FFF
+      FFFF00000000FFFFFFF0F0000000FFFFFFFF0000000FFFFFFFF0F000000FFFFF
+      FFFF000000FFFFFFFFF0F0000FFFFFFFFFFF0000FFFFFFFFFFF0F000FFFFFFFF
+      FFFF000FFFFFFFFFFFF0F0FFFFFFFFFFFFFF0FFFFFFFFFFFFFF0
+    }
+    OnClick = BitBtn1Click
+    TabOrder = 0
+  end
+  object BitBtn2: TBitBtn
+    Left = 120
+    Height = 25
+    Top = 560
+    Width = 48
+    Glyph.Data = {
+      76010000424D7601000000000000760000002800000020000000100000000100
+      0400000000000001000000000000000000001000000010000000000000000000
+      80000080000000808000800000008000800080800000C0C0C000808080000000
+      FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00F0FFFFFFFFFF
+      FFFF0FFFFFFFFFFFFFF0F0FFFFFFFFFFFF000FFFFFFFFFFFF000F0FFFFFFFFFF
+      F0000FFFFFFFFFFF0000F0FFFFFFFFF000000FFFFFFFFF000000F0FFFFFFFF00
+      00000FFFFFFFF0000000F0FFFFFFF00000000FFFFFFF00000000F0FFFFF00000
+      00000FFFFF0000000000F0FFFF00000000000FFFF00000000000F0FFFF000000
+      00000FFFF00000000000F0FFFFF0000000000FFFFF0000000000F0FFFFFFF000
+      00000FFFFFFF00000000F0FFFFFFFF0000000FFFFFFFF0000000F0FFFFFFFFF0
+      00000FFFFFFFFF000000F0FFFFFFFFFFF0000FFFFFFFFFFF0000F0FFFFFFFFFF
+      FF000FFFFFFFFFFFF000F0FFFFFFFFFFFFFF0FFFFFFFFFFFFFF0
+    }
+    OnClick = BitBtn2Click
+    TabOrder = 1
+  end
+  object BitBtn4: TBitBtn
+    Left = 168
+    Height = 25
+    Top = 560
+    Width = 48
+    Glyph.Data = {
+      76010000424D7601000000000000760000002800000020000000100000000100
+      0400000000000001000000000000000000001000000010000000000000000000
+      80000080000000808000800000008000800080800000C0C0C000808080000000
+      FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00FFFFFFFFFFFF
+      FFFFFFF0FFFFFFFFFFFFFFFFFFFFFFFFFFFFF000FFFFFFFFFFFFFFFFFFFFFFFF
+      FFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFF
+      F0000000FFFFFFFFFFFFFFFFFFFFFFFF00000000FFFFFFFFFFFFFFFFFFFFFF00
+      00000000FFFFFFFFFFFFFFFFFFFFF00000000000FFFFFFFFFFFFFFFFFFFFF000
+      00000000FFFFFFFFFFFFFFFFFFFFFF0000000000FFFFFFFFFFFFFFFFFFFFFFFF
+      00000000FFFFFFFFFFFFFFFFFFFFFFFFF0000000FFFFFFFFFFFFFFFFFFFFFFFF
+      FF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFF
+      FFFFF000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0FFFFFFFFFFFF
+    }
+    OnClick = BitBtn4Click
+    TabOrder = 2
+  end
+  object BitBtn5: TBitBtn
+    Left = 216
+    Height = 25
+    Top = 560
+    Width = 48
+    Glyph.Data = {
+      76010000424D7601000000000000760000002800000020000000100000000100
+      0400000000000001000000000000000000001000000010000000000000000000
+      80000080000000808000800000008000800080800000C0C0C000808080000000
+      FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00FFFFFFFFFFFF
+      FFFFFFFFFFFFFFFFFFFFFFFFFFFFF00000000000000FFFFFFFFFFFFFFFFFF000
+      00000000000FFFFFFFFFFFFFFFFFF00000000000000FFFFFFFFFFFFFFFFFF000
+      00000000000FFFFFFFFFFFFFFFFFF00000000000000FFFFFFFFFFFFFFFFFF000
+      00000000000FFFFFFFFFFFFFFFFFF00000000000000FFFFFFFFFFFFFFFFFF000
+      00000000000FFFFFFFFFFFFFFFFFF00000000000000FFFFFFFFFFFFFFFFFF000
+      00000000000FFFFFFFFFFFFFFFFFF00000000000000FFFFFFFFFFFFFFFFFF000
+      00000000000FFFFFFFFFFFFFFFFFF00000000000000FFFFFFFFFFFFFFFFFF000
+      00000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+    }
+    OnClick = BitBtn5Click
+    TabOrder = 3
+  end
+  object BitBtn6: TBitBtn
+    Left = 264
+    Height = 25
+    Top = 560
+    Width = 48
+    Glyph.Data = {
+      76010000424D7601000000000000760000002800000020000000100000000100
+      0400000000000001000000000000000000001000000010000000000000000000
+      80000080000000808000800000008000800080800000C0C0C000808080000000
+      FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00FFFFFFFFFFFF
+      0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000FFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+      0000FFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFF
+      0000000FFFFFFFFFFFFFFFFFFFFFFFFF00000000FFFFFFFFFFFFFFFFFFFFFFFF
+      0000000000FFFFFFFFFFFFFFFFFFFFFF00000000000FFFFFFFFFFFFFFFFFFFFF
+      00000000000FFFFFFFFFFFFFFFFFFFFF0000000000FFFFFFFFFFFFFFFFFFFFFF
+      00000000FFFFFFFFFFFFFFFFFFFFFFFF0000000FFFFFFFFFFFFFFFFFFFFFFFFF
+      000000FFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFF
+      000FFFFFFFFFFFFFFFFFFFFFFFFFFFFF0FFFFFFFFFFFFFFFFFFF
+    }
+    OnClick = BitBtn6Click
+    TabOrder = 4
+  end
+  object Button1: TButton
+    Left = 640
+    Height = 25
+    Top = 560
+    Width = 75
+    Caption = 'Cancel'
+    OnClick = Button1Click
+    TabOrder = 5
+    Visible = False
+  end
+  object Edit2: TEdit
+    Left = 576
+    Height = 24
+    Top = 560
+    Width = 48
+    TabOrder = 6
+    Text = '0'
+  end
+  object Button2: TButton
+    Left = 528
+    Height = 25
+    Top = 560
+    Width = 48
+    Caption = 'Go to'
+    OnClick = Button2Click
+    TabOrder = 7
+  end
+  object TrackBar1: TTrackBar
+    Left = 368
+    Height = 33
+    Top = 560
+    Width = 150
+    Max = 6
+    OnChange = TrackBar1Change
+    Position = 2
+    TabOrder = 8
+  end
+  object MainMenu1: TMainMenu
+    top = 16
+    object File1: TMenuItem
+      Caption = '&File'
+      Hint = 'File related commands'
+      object OpenFirst1: TMenuItem
+        Caption = '&Open Sequence'
+        OnClick = OpenFirst1Click
+      end
+      object AddMask: TMenuItem
+        Caption = '&Add Mask'
+        OnClick = AddMaskClick
+      end
+      object N2: TMenuItem
+        Caption = '-'
+      end
+      object Save1: TMenuItem
+        Caption = '&Save Maps'
+        OnClick = Save1Click
+      end
+      object N1: TMenuItem
+        Caption = '-'
+      end
+      object RedrawImage1: TMenuItem
+        Caption = '&Redraw Image'
+        OnClick = RedrawImage1Click
+      end
+      object N10: TMenuItem
+        Caption = '-'
+      end
+      object FileExitItem: TMenuItem
+        Caption = 'E&xit'
+        Hint = 'Exit|Exit application'
+        OnClick = FileExit1Execute
+      end
+    end
+    object UserInput: TMenuItem
+      Caption = '&User Input'
+      object Setcroplimits1: TMenuItem
+        Caption = '&Set Crop Limits'
+        object All1: TMenuItem
+          Caption = '&All'
+          OnClick = CropAllClick
+        end
+        object N5: TMenuItem
+          Caption = '-'
+        end
+        object op1: TMenuItem
+          Caption = '&Top'
+          OnClick = CropTopClick
+        end
+        object Bottom1: TMenuItem
+          Caption = '&Bottom'
+          OnClick = CropBottomClick
+        end
+        object Left1: TMenuItem
+          Caption = '&Left'
+          OnClick = CropLeftClick
+        end
+        object Right1: TMenuItem
+          Caption = '&Right'
+          OnClick = CropRightClick
+        end
+      end
+      object ClearLimits1: TMenuItem
+        Caption = '&Clear Crop Limits'
+        OnClick = CropClearClick
+      end
+      object N8: TMenuItem
+        Caption = '-'
+      end
+      object SetAnchorPoints1: TMenuItem
+        Caption = 'Set 2 End Anchor &Points'
+        OnClick = SetAnchorPoints1Click
+      end
+      object SetArcAnchorPoints1: TMenuItem
+        Caption = 'Set 3 &Arc Anchor Points'
+        OnClick = SetArcAnchorPoints1Click
+      end
+      object ImportInputs1: TMenuItem
+        Caption = '&Import Points'
+        OnClick = ImportInputs1Click
+      end
+      object N9: TMenuItem
+        Caption = '-'
+      end
+      object ManualInput1: TMenuItem
+        Caption = '&Manual Input'
+        OnClick = ManualInput1Click
+      end
+      object N3: TMenuItem
+        Caption = '-'
+      end
+      object ThresholdGraph1: TMenuItem
+        Caption = '&Thresholding Settings'
+        OnClick = ThresholdGraph1Click
+      end
+      object CorrelationAdjust1: TMenuItem
+        Caption = 'Cor&relation Settings'
+        OnClick = CorrelationAdjust1Click
+      end
+    end
+    object Generate1: TMenuItem
+      Caption = '&Generate 1D'
+      object DiameterMap1: TMenuItem
+        Caption = '&Diameter Map'
+        OnClick = DiameterOnly1Click
+      end
+      object DiameterandLongitudinalMap1: TMenuItem
+        Caption = 'Dmap and Floating Longitudinal SRmap'
+        OnClick = DiameterAxial1Click
+      end
+      object N6: TMenuItem
+        Caption = '-'
+      end
+      object UpperRadialMap1: TMenuItem
+        Caption = '&Upper Radial Map'
+        OnClick = UpperRadialMap1Click
+      end
+      object LowerRadialMap1: TMenuItem
+        Caption = '&Lower Radial Map'
+        OnClick = LowerRadialMap1Click
+      end
+      object DMapandFixedLMap1: TMenuItem
+        Caption = 'Dmap and Fixed Longitudinal SRmap'
+        OnClick = DMapandFixedLMap1Click
+      end
+      object N7: TMenuItem
+        Caption = '-'
+      end
+      object MapLineIntensity1: TMenuItem
+        Caption = 'Line &Intensity Map'
+        OnClick = MapLineIntensity1Click
+      end
+      object MapAlongLine1: TMenuItem
+        Caption = 'Line Intensity Map and SRmap'
+        OnClick = MapAlongLine1Click
+      end
+      object AverageIntensityMap1: TMenuItem
+        Caption = 'Average Intensity Map'
+        OnClick = AverageIntensityMap1Click
+      end
+    end
+    object Generate2D1: TMenuItem
+      Caption = 'Ge&nerate 2D'
+      object ArcROI1: TMenuItem
+        Caption = '&Arc ROI Map'
+        OnClick = ArcROI1Click
+      end
+      object RectangularROIMap1: TMenuItem
+        Caption = '&Rectangular ROI Map'
+        OnClick = RectangularROIMap1Click
+      end
+    end
+    object Help1: TMenuItem
+      Caption = '&Help'
+      Hint = 'Help topics'
+      object HelpAboutItem: TMenuItem
+        Caption = '&About...'
+        Hint = 'About|Displays program information, version number, and copyright'
+        OnClick = HelpAbout1Execute
+      end
+      object N11: TMenuItem
+        Caption = '-'
+      end
+      object FollowSinglePoint1: TMenuItem
+        Caption = '&Single Point Test'
+        OnClick = Point1Click
+      end
+      object AnchorPointShift1: TMenuItem
+        Caption = 'Anchor Point Shift'
+        Enabled = False
+        OnClick = AnchorPointShift1Click
+      end
+      object SaveAnnotatedSequence1: TMenuItem
+        Caption = 'Save Annotated Sequence'
+        Enabled = False
+        OnClick = SaveAnnotatedSequence1Click
+      end
+      object StopAnnotatedSequence1: TMenuItem
+        Caption = 'Stop Saving Sequence'
+        Enabled = False
+        OnClick = StopAnnotatedSequence1Click
+      end
+    end
+  end
+  object OpenDialog: TOpenDialog
+    DefaultExt = '.txt'
+    Filter = 'Text Files (*.txt)|*.txt'
+    left = 64
+    top = 16
+  end
+  object SaveDialog: TSaveDialog
+    DefaultExt = '.bmp'
+    Filter = 'TIF Files (*.tif)|*.tif'
+    left = 32
+    top = 16
+  end
+  object Timer1: TTimer
+    Enabled = False
+    Interval = 200
+    OnTimer = Timer1Timer
+    left = 96
+    top = 16
+  end
+  object OpenDialog1: TOpenDialog
+    left = 128
+    top = 16
+  end
+  object OpenDialog2: TOpenDialog
+    DefaultExt = '.shf'
+    Filter = 'Shift Map Files (*.shf)|*.shf'
+    left = 160
+    top = 16
+  end
+end
