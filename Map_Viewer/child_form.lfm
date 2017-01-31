@@ -1,0 +1,215 @@
+object ChildForm: TChildForm
+  Left = 503
+  Height = 413
+  Top = 271
+  Width = 591
+  Caption = 'Child Form'
+  ClientHeight = 413
+  ClientWidth = 591
+  OnClose = FormClose
+  OnCreate = FormCreate
+  LCLVersion = '1.6.0.4'
+  Visible = True
+  object ChildToolBar: TToolBar
+    Left = 0
+    Height = 26
+    Top = 0
+    Width = 591
+    Caption = 'ChildToolBar'
+    EdgeBorders = [ebTop, ebBottom]
+    Images = MainForm.MainImageList
+    TabOrder = 0
+    object ZoomInButton: TToolButton
+      Left = 126
+      Hint = 'Zoom in'
+      Top = 2
+      Caption = 'ZoomInButton'
+      ImageIndex = 2
+      OnClick = ZoomInButtonClick
+      ParentShowHint = False
+      ShowHint = True
+    end
+    object ZoomOutButton: TToolButton
+      Left = 103
+      Hint = 'Zoom out'
+      Top = 2
+      Caption = 'ZoomOutButton'
+      ImageIndex = 3
+      OnClick = ZoomOutButtonClick
+      ParentShowHint = False
+      ShowHint = True
+    end
+    object ToolBarSep1: TToolButton
+      Left = 149
+      Height = 22
+      Top = 2
+      Width = 10
+      Caption = 'ToolBarSep1'
+      Style = tbsSeparator
+    end
+    object InfoButton: TToolButton
+      Left = 215
+      Hint = 'Information on current image'
+      Top = 2
+      Caption = 'InfoButton'
+      ImageIndex = 7
+      OnClick = InfoButtonClick
+      ParentShowHint = False
+      ShowHint = True
+    end
+    object DullButton: TToolButton
+      Left = 159
+      Hint = 'Reduce contrast'
+      Top = 2
+      Caption = 'DullButton'
+      ImageIndex = 10
+      OnClick = DullButtonClick
+      ParentShowHint = False
+      ShowHint = True
+    end
+    object BrightButton: TToolButton
+      Left = 182
+      Hint = 'increase contrast'
+      Top = 2
+      Caption = 'BrightButton'
+      ImageIndex = 11
+      OnClick = BrightButtonClick
+      ParentShowHint = False
+      ShowHint = True
+    end
+    object ToolBarSep2: TToolButton
+      Left = 205
+      Height = 22
+      Top = 2
+      Width = 10
+      Caption = 'ToolBarSep2'
+      Style = tbsSeparator
+    end
+    object ToolBarSep3: TToolButton
+      Left = 238
+      Height = 22
+      Top = 2
+      Width = 10
+      Caption = 'ToolBarSep3'
+      Style = tbsSeparator
+    end
+    object FilterButton: TToolButton
+      Left = 1
+      Hint = 'Filter/smooth map'
+      Top = 2
+      Caption = 'FilterButton'
+      ImageIndex = 12
+      OnClick = FilterButtonClick
+      ParentShowHint = False
+      ShowHint = True
+    end
+    object CalculateButton: TToolButton
+      Left = 24
+      Hint = 'Calculate new map'
+      Top = 2
+      Caption = 'CalculateButton'
+      ImageIndex = 13
+      OnClick = CalculateButtonClick
+      ParentShowHint = False
+      ShowHint = True
+    end
+    object ToolBarSep4: TToolButton
+      Left = 93
+      Height = 22
+      Top = 2
+      Width = 10
+      Caption = 'ToolBarSep4'
+      Style = tbsSeparator
+    end
+    object PublishButton: TToolButton
+      Left = 47
+      Hint = 'Publish map'
+      Top = 2
+      Caption = 'PublishButton'
+      ImageIndex = 14
+      OnClick = PublishButtonClick
+      ParentShowHint = False
+      ShowHint = True
+    end
+    object MarkedPtValue: TEdit
+      Cursor = crNone
+      Left = 248
+      Height = 21
+      Top = 2
+      Width = 200
+      Color = clBtnFace
+      Font.Style = [fsBold]
+      ParentFont = False
+      TabStop = False
+      TabOrder = 0
+    end
+    object SaveButton: TToolButton
+      Left = 70
+      Hint = 'Save map to disk'
+      Top = 2
+      Caption = 'SaveButton'
+      ImageIndex = 15
+      OnClick = SaveButtonClick
+      ParentShowHint = False
+      ShowHint = True
+    end
+  end
+  object ChildClient: TScrollBox
+    Left = 0
+    Height = 387
+    Top = 26
+    Width = 591
+    HorzScrollBar.Page = 90
+    VertScrollBar.Page = 90
+    Align = alClient
+    BorderStyle = bsNone
+    ClientHeight = 387
+    ClientWidth = 591
+    TabOrder = 1
+    OnClick = ChildClientClick
+    object ChildImage: TImage
+      Left = 0
+      Height = 90
+      Top = 0
+      Width = 90
+      OnClick = ChildClientClick
+      OnMouseDown = ChildImageMouseDown
+      OnMouseMove = ChildImageMouseMove
+    end
+  end
+  object ChildPopupMenu: TPopupMenu
+    TrackButton = tbLeftButton
+    left = 120
+    top = 40
+    object MarkPointMenu: TMenuItem
+      Caption = 'Mark Point'
+      OnClick = MarkPointMenuClick
+    end
+    object MarkLineMenu: TMenuItem
+      Caption = 'Mark Line'
+      OnClick = MarkLineMenuClick
+    end
+    object MenuSep1: TMenuItem
+      Caption = '-'
+    end
+    object CopyVerticalProfile: TMenuItem
+      Caption = 'Copy Vertical Profile'
+      OnClick = CopyVerticalProfileClick
+    end
+    object CopyHorizontalProfile: TMenuItem
+      Caption = 'Copy Horizontal Profile'
+      OnClick = CopyHorizontalProfileClick
+    end
+    object CopyLOIProfile: TMenuItem
+      Caption = 'Copy LOI Profile'
+      OnClick = CopyLOIProfileClick
+    end
+    object MenuSep2: TMenuItem
+      Caption = '-'
+    end
+    object ViewSplineFit: TMenuItem
+      Caption = 'View Spline Fit'
+      OnClick = ViewSplineFitClick
+    end
+  end
+end

@@ -1,0 +1,48 @@
+object ArcDlg: TArcDlg
+  Left = 747
+  Top = 242
+  BorderStyle = bsDialog
+  Caption = 'Arc ROI Selection Dialog'
+  ClientHeight = 183
+  ClientWidth = 225
+  Color = clBtnFace
+  ParentFont = True
+  OldCreateOrder = True
+  Position = poScreenCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object RadioGroup1: TRadioGroup
+    Left = 48
+    Top = 24
+    Width = 121
+    Height = 89
+    Caption = 'Strain rate direction'
+    TabOrder = 1
+  end
+  object OKBtn: TButton
+    Left = 70
+    Top = 135
+    Width = 75
+    Height = 25
+    Caption = 'OK'
+    Default = True
+    ModalResult = 1
+    TabOrder = 0
+  end
+  object RadioButton1: TRadioButton
+    Left = 66
+    Top = 48
+    Width = 90
+    Height = 17
+    Caption = 'Longitudinal'
+    TabOrder = 2
+  end
+  object RadioButton2: TRadioButton
+    Left = 66
+    Top = 79
+    Width = 90
+    Height = 17
+    Caption = 'Radial'
+    TabOrder = 3
+  end
+end
