@@ -1,0 +1,61 @@
+object MapFrm: TMapFrm
+  Left = 940
+  Height = 550
+  Top = 20
+  Width = 320
+  BorderIcons = [biSystemMenu]
+  Caption = 'Captured Map'
+  ClientHeight = 550
+  ClientWidth = 320
+  FormStyle = fsStayOnTop
+  OnClose = FormClose
+  LCLVersion = '1.6.0.4'
+  object MapToolBar: TToolBar
+    Left = 0
+    Height = 26
+    Top = 0
+    Width = 320
+    Caption = 'MapToolBar'
+    EdgeBorders = [ebTop, ebBottom]
+    Images = MainForm.ImageList1
+    TabOrder = 0
+    object SaveButton: TToolButton
+      Left = 24
+      Hint = 'Save captured map to disk'
+      Top = 2
+      Caption = 'SaveButton'
+      ImageIndex = 8
+      OnClick = SaveButtonClick
+      ParentShowHint = False
+      ShowHint = True
+    end
+    object ClearButton1: TToolButton
+      Left = 1
+      Hint = 'Erase captured map'
+      Top = 2
+      Caption = 'ClearButton1'
+      ImageIndex = 18
+      OnClick = ClearButton1Click
+      ParentShowHint = False
+      ShowHint = True
+    end
+  end
+  object ScrollBox1: TScrollBox
+    Left = 0
+    Height = 524
+    Top = 26
+    Width = 320
+    HorzScrollBar.Page = 88
+    VertScrollBar.Page = 90
+    Align = alClient
+    ClientHeight = 520
+    ClientWidth = 316
+    TabOrder = 1
+    object MapImage: TImage
+      Left = -2
+      Height = 90
+      Top = 0
+      Width = 90
+    end
+  end
+end

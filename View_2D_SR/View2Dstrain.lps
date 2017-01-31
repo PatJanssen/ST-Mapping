@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="19">
+      <Unit0>
+        <Filename Value="View2Dstrain.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="SDIAPP"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="37"/>
+        <UsageCount Value="85"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="MainUnit.PAS"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MainForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="554"/>
+        <CursorPos X="8" Y="586"/>
+        <UsageCount Value="85"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="About.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="AboutBox"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ABOUT"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="21" Y="6"/>
+        <UsageCount Value="85"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="UserPrompt.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Prompt"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UsageCount Value="85"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="LinkDialog.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="LinkInputDlg"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="37"/>
+        <UsageCount Value="85"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="DumpDialog.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="DumpInputDlg"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="85"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="KeyForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="KeyFrm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="96" Y="14"/>
+        <UsageCount Value="85"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="MapForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MapFrm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="56"/>
+        <CursorPos X="7" Y="64"/>
+        <UsageCount Value="85"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="..\AlgLib_Lazarus\src\spline2d.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="85"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="..\AlgLib_Lazarus\src\ap.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="85"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="..\AlgLib_Lazarus\src\linmin.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="85"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="..\AlgLib_Lazarus\src\minasa.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="85"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="SmoothDialog.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="SmoothInputDlg"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="9"/>
+        <CursorPos X="23" Y="41"/>
+        <UsageCount Value="85"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="pngimage.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="11"/>
+        <UsageCount Value="85"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="Common.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="47" Y="17"/>
+        <UsageCount Value="66"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="bitmapsaver.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="BmpSaveForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="BitmapSaver"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="27"/>
+        <CursorPos X="92" Y="46"/>
+        <UsageCount Value="65"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="CommentForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="CommentFrm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="13"/>
+        <CursorPos X="13" Y="27"/>
+        <UsageCount Value="37"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="C:\lazarus\lcl\graphics.pp"/>
+        <UnitName Value="Graphics"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="846"/>
+        <CursorPos X="15" Y="864"/>
+        <UsageCount Value="14"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="C:\lazarus\components\lazutils\fileutil.pas"/>
+        <UnitName Value="FileUtil"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="58"/>
+        <CursorPos X="24" Y="86"/>
+        <UsageCount Value="15"/>
+      </Unit18>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="MainUnit.PAS"/>
+        <Caret Line="79" Column="21" TopLine="48"/>
+      </Position1>
+      <Position2>
+        <Filename Value="MainUnit.PAS"/>
+        <Caret Line="144" Column="25" TopLine="113"/>
+      </Position2>
+      <Position3>
+        <Filename Value="MainUnit.PAS"/>
+        <Caret Line="159" Column="73" TopLine="127"/>
+      </Position3>
+      <Position4>
+        <Filename Value="MainUnit.PAS"/>
+        <Caret Line="194" Column="9" TopLine="162"/>
+      </Position4>
+      <Position5>
+        <Filename Value="MainUnit.PAS"/>
+        <Caret Line="224" Column="24" TopLine="188"/>
+      </Position5>
+      <Position6>
+        <Filename Value="MainUnit.PAS"/>
+        <Caret Line="225" Column="24" TopLine="189"/>
+      </Position6>
+      <Position7>
+        <Filename Value="MainUnit.PAS"/>
+        <Caret Line="1696" Column="3" TopLine="1681"/>
+      </Position7>
+      <Position8>
+        <Filename Value="MainUnit.PAS"/>
+        <Caret Line="1850" TopLine="1828"/>
+      </Position8>
+      <Position9>
+        <Filename Value="MainUnit.PAS"/>
+        <Caret Line="1708" Column="30" TopLine="1679"/>
+      </Position9>
+      <Position10>
+        <Filename Value="MainUnit.PAS"/>
+        <Caret Line="2" Column="29"/>
+      </Position10>
+      <Position11>
+        <Filename Value="MainUnit.PAS"/>
+        <Caret Line="44" Column="14" TopLine="12"/>
+      </Position11>
+      <Position12>
+        <Filename Value="MainUnit.PAS"/>
+        <Caret Line="80" Column="24" TopLine="49"/>
+      </Position12>
+      <Position13>
+        <Filename Value="MainUnit.PAS"/>
+        <Caret Line="90" Column="24" TopLine="59"/>
+      </Position13>
+      <Position14>
+        <Filename Value="MainUnit.PAS"/>
+        <Caret Line="162" Column="11" TopLine="130"/>
+      </Position14>
+      <Position15>
+        <Filename Value="MainUnit.PAS"/>
+        <Caret Line="216" Column="30" TopLine="184"/>
+      </Position15>
+      <Position16>
+        <Filename Value="MainUnit.PAS"/>
+        <Caret Line="591" Column="30" TopLine="559"/>
+      </Position16>
+      <Position17>
+        <Filename Value="MainUnit.PAS"/>
+        <Caret Line="593" Column="8" TopLine="561"/>
+      </Position17>
+      <Position18>
+        <Filename Value="MainUnit.PAS"/>
+        <Caret Line="44" Column="14" TopLine="26"/>
+      </Position18>
+      <Position19>
+        <Filename Value="MainUnit.PAS"/>
+        <Caret Line="80" Column="24" TopLine="49"/>
+      </Position19>
+      <Position20>
+        <Filename Value="MainUnit.PAS"/>
+        <Caret Line="90" Column="24" TopLine="59"/>
+      </Position20>
+      <Position21>
+        <Filename Value="MainUnit.PAS"/>
+        <Caret Line="162" Column="11" TopLine="130"/>
+      </Position21>
+      <Position22>
+        <Filename Value="MainUnit.PAS"/>
+        <Caret Line="216" Column="30" TopLine="184"/>
+      </Position22>
+      <Position23>
+        <Filename Value="MainUnit.PAS"/>
+        <Caret Line="591" Column="30" TopLine="559"/>
+      </Position23>
+      <Position24>
+        <Filename Value="MainUnit.PAS"/>
+        <Caret Line="593" Column="8" TopLine="561"/>
+      </Position24>
+      <Position25>
+        <Filename Value="MainUnit.PAS"/>
+        <Caret Line="44" Column="14" TopLine="26"/>
+      </Position25>
+      <Position26>
+        <Filename Value="MainUnit.PAS"/>
+        <Caret Line="80" TopLine="49"/>
+      </Position26>
+      <Position27>
+        <Filename Value="MainUnit.PAS"/>
+        <Caret Line="89" Column="24" TopLine="58"/>
+      </Position27>
+      <Position28>
+        <Filename Value="MainUnit.PAS"/>
+        <Caret Line="161" Column="11" TopLine="129"/>
+      </Position28>
+      <Position29>
+        <Filename Value="MainUnit.PAS"/>
+        <Caret Line="214" TopLine="183"/>
+      </Position29>
+      <Position30>
+        <Filename Value="MainUnit.PAS"/>
+        <Caret Line="584" Column="30" TopLine="552"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

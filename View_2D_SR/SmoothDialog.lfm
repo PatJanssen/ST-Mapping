@@ -1,0 +1,50 @@
+object SmoothInputDlg: TSmoothInputDlg
+  Left = 319
+  Height = 178
+  Top = 233
+  Width = 314
+  BorderStyle = bsDialog
+  Caption = 'Smoothing of Pseudo Colour Overlay'
+  ClientHeight = 178
+  ClientWidth = 314
+  Color = clBtnFace
+  ParentFont = True
+  Position = poScreenCenter
+  LCLVersion = '1.2.4.0'
+  object OKBtn: TButton
+    Left = 72
+    Height = 25
+    Top = 136
+    Width = 75
+    Caption = 'OK'
+    Default = True
+    ModalResult = 1
+    TabOrder = 0
+  end
+  object CancelBtn: TButton
+    Left = 160
+    Height = 25
+    Top = 136
+    Width = 75
+    Cancel = True
+    Caption = 'Cancel'
+    ModalResult = 2
+    TabOrder = 1
+  end
+  object CBox_SmoothFlag: TCheckBox
+    Left = 104
+    Height = 17
+    Top = 24
+    Width = 108
+    Caption = 'Smooth On/Off     '
+    TabOrder = 2
+  end
+  object CBox_TrendFlag: TCheckBox
+    Left = 104
+    Height = 17
+    Top = 56
+    Width = 85
+    Caption = 'Trend On/Off'
+    TabOrder = 3
+  end
+end

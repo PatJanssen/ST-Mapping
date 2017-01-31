@@ -1,0 +1,37 @@
+object KeyFrm: TKeyFrm
+  Left = 772
+  Height = 373
+  Top = 20
+  Width = 135
+  BorderIcons = [biSystemMenu]
+  Caption = 'Scale Key'
+  ClientHeight = 373
+  ClientWidth = 135
+  OnClose = FormClose
+  LCLVersion = '1.6.0.4'
+  object KeyToolBar: TToolBar
+    Left = 0
+    Height = 26
+    Top = 0
+    Width = 135
+    Caption = 'KeyToolBar'
+    EdgeBorders = [ebTop, ebBottom]
+    Images = MainForm.ImageList1
+    TabOrder = 0
+    object SaveButton: TToolButton
+      Left = 1
+      Hint = 'Save scale key to disk'
+      Top = 2
+      Caption = 'SaveButton'
+      ImageIndex = 8
+      OnClick = SaveButtonClick
+    end
+  end
+  object KeyImage: TImage
+    Left = 0
+    Height = 90
+    Top = 26
+    Width = 90
+    OnClick = KeyImageClick
+  end
+end

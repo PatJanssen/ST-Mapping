@@ -1,0 +1,25 @@
+object CommentFrm: TCommentFrm
+  Left = 940
+  Height = 265
+  Top = 700
+  Width = 321
+  BorderIcons = [biSystemMenu]
+  Caption = 'Pressure File Comments'
+  ClientHeight = 265
+  ClientWidth = 321
+  OnClose = FormClose
+  LCLVersion = '1.6.0.4'
+  object CommentMemo: TMemo
+    Left = 0
+    Height = 265
+    Top = 0
+    Width = 321
+    Align = alClient
+    Lines.Strings = (
+      'CommentMemo'
+    )
+    ScrollBars = ssAutoBoth
+    TabOrder = 0
+    WordWrap = False
+  end
+end

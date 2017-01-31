@@ -1,0 +1,23 @@
+object BmpSaveForm: TBmpSaveForm
+  Left = 541
+  Height = 67
+  Top = 351
+  Width = 194
+  BorderIcons = []
+  Caption = 'Save Map or Key to Disk'
+  ClientHeight = 67
+  ClientWidth = 194
+  LCLVersion = '1.6.0.4'
+  object ProgressBar1: TProgressBar
+    Left = 16
+    Height = 20
+    Top = 24
+    Width = 160
+    TabOrder = 0
+  end
+  object SaveDialog: TSaveDialog
+    Filter = 'TIF files|*.tif'
+    left = 152
+    top = 16
+  end
+end
